@@ -13,6 +13,8 @@
 		D942DA8D27EF373D00310BE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D942DA8B27EF373D00310BE5 /* Main.storyboard */; };
 		D942DA8F27EF373F00310BE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D942DA8E27EF373F00310BE5 /* Assets.xcassets */; };
 		D942DA9227EF373F00310BE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D942DA9027EF373F00310BE5 /* LaunchScreen.storyboard */; };
+		D942DA9F27EF616700310BE5 /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D942DA9E27EF616700310BE5 /* RoundView.swift */; };
+		D942DAA227EF619D00310BE5 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D942DAA127EF619D00310BE5 /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D942DA8E27EF373F00310BE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D942DA9127EF373F00310BE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D942DA9327EF373F00310BE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D942DA9E27EF616700310BE5 /* RoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundView.swift; sourceTree = "<group>"; };
+		D942DAA127EF619D00310BE5 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				D942DA8527EF373D00310BE5 /* AppDelegate.swift */,
 				D942DA8727EF373D00310BE5 /* SceneDelegate.swift */,
+				D942DA9E27EF616700310BE5 /* RoundView.swift */,
+				D942DAA127EF619D00310BE5 /* RoundButton.swift */,
 				D942DA8927EF373D00310BE5 /* RadioViewController.swift */,
 				D942DA8B27EF373D00310BE5 /* Main.storyboard */,
 				D942DA9027EF373F00310BE5 /* LaunchScreen.storyboard */,
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D942DA8A27EF373D00310BE5 /* RadioViewController.swift in Sources */,
+				D942DAA227EF619D00310BE5 /* RoundButton.swift in Sources */,
+				D942DA9F27EF616700310BE5 /* RoundView.swift in Sources */,
 				D942DA8627EF373D00310BE5 /* AppDelegate.swift in Sources */,
 				D942DA8827EF373D00310BE5 /* SceneDelegate.swift in Sources */,
 			);
