@@ -125,11 +125,13 @@ final class RadioViewController: UIViewController {
         ])
     }
     
+    // Called when the iOS interface environment changes
     override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
         super.traitCollectionDidChange(previousTraitCollection)
         layoutTrait(traitCollection: traitCollection)
     }
     
+    // Activates constraints depending on the screen orientation
     private func layoutTrait(traitCollection: UITraitCollection) {
         if traitCollection.horizontalSizeClass == .compact && traitCollection.verticalSizeClass == .regular {
             NSLayoutConstraint.deactivate(landscapeConstraints)

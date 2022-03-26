@@ -7,7 +7,8 @@
 
 import UIKit
 
-class RoundButton: UIButton {
+/// This class for for password buttons.
+final class RoundButton: UIButton {
     override func awakeFromNib() {
         super.awakeFromNib()
         makeRounded(borderColour: .darkText, borderWidth: 1.0)
