@@ -2,7 +2,7 @@
 
 Autolayout demo
 
-In the code
+Made in the code
 
 ![Simulator Screen Shot - iPhone 8 - 2022-03-26 at 17 41 38 — копия](https://user-images.githubusercontent.com/102160659/160247102-b5b62281-5162-44b4-bd55-7232a502ea62.png)
 ![Simulator Screen Shot - iPhone 8 - 2022-03-26 at 17 41 45](https://user-images.githubusercontent.com/102160659/160247104-e0fa3087-16d1-4cc3-a2aa-a0a7a427c6d5.png)
